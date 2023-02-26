@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  font-family: 'Raleway', sans-serif;
+}
+
 @layer base {
   body {
     @apply bg-[#cae0f3] text-[#131820] tracking-wide;
