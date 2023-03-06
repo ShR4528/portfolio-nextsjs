@@ -16,15 +16,15 @@ const Projects = () => {
         <h2 className='py-4'>What I've Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Property Finder'
+            title='Portfolio'
             backgroundImg={propertyImg}
             projectUrl='/property'
             tech='React JS'
           />
           <ProjectItem
-            title='Crypto App'
+            title='Gym'
             backgroundImg={cryptoImg}
-            projectUrl='/crypto'
+            projectUrl='/gym'
             tech='React JS'
           />
           <ProjectItem
@@ -34,7 +34,7 @@ const Projects = () => {
             tech='React JS'
           />
           <ProjectItem
-            title='Twitch UI'
+            title='Store App'
             backgroundImg={twitchImg}
             projectUrl='/twitch'
             tech='Next JS'
